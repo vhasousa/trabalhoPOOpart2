@@ -1,0 +1,83 @@
+body {
+    font-family: Roboto;
+    background: #f0f2f5;
+    color: #131C38;
+}
+
+.header {
+    background: #4960A6;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header img {
+    width: 20%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: -3rem 1rem 0 1rem;
+}
+
+.card {
+    background: #fff;
+    padding: 2rem 2rem;
+    border-radius: .25rem;
+    justify-content: space-between;
+}
+
+.card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__header p {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card__header img {
+    width: 24px;
+}
+
+
+.card__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.card__form input {
+    border: 1px solid #dcdce6;
+    border-radius: 0.25rem;
+    padding: 0 1.5rem;
+    background-color: #fff;
+    display: flex;
+    height: 2rem;
+
+    font-weight: 400;
+}
+
+.card__form button {
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #76a638;
+    border: none;
+    padding: .75rem;
+    width: 30%;
+    border-radius: 4px;
+    font-weight: 900;
+    transition: filter 0.2s;
+}
+
+.card__form button:hover {
+    filter: brightness(0.9)
+}
+
+.content {
+    margin-top: 1rem;
+}
